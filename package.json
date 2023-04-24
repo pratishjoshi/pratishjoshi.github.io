@@ -1,6 +1,6 @@
 {
-  "homepage" : "http://pratishjoshi.github.io/react-portfolio",
   "name": "new-portfolio",
+  "homepage" : "http://pratishjoshi.github.io/react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
