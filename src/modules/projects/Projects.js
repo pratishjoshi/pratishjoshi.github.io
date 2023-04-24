@@ -10,31 +10,31 @@ const Projects = () => {
       name: "all",
       content: [
         {
-          img: "/me.jpeg",
+          img: "me.jpeg",
           title: "test title",
           description: "they call me ace",
           tech_used: "test / tech",
         },
         {
-          img: "/me.jpeg",
+          img: "me.jpeg",
           title: "test title",
           description: "they call me ace",
           tech_used: "test / tech",
         },
         {
-          img: "/me.jpeg",
+          img: "me.jpeg",
           title: "test title",
           description: "they call me ace",
           tech_used: "test / tech",
         },
         {
-          img: "/me.jpeg",
+          img: "me.jpeg",
           title: "test title",
           description: "they call me ace",
           tech_used: "test / tech",
         },
         {
-          img: "/me.jpeg",
+          img: "me.jpeg",
           title: "test title",
           description: "they call me ace",
           tech_used: "test / tech",
@@ -46,13 +46,13 @@ const Projects = () => {
       name: "react-js",
       content: [
         {
-          img: "/me.jpeg",
+          img: "me.jpeg",
           title: "react project title",
           description: "they call me ace",
           tech_used: "react / nodejs",
         },
         {
-          img: "/me.jpeg",
+          img: "me.jpeg",
           title: "react project title",
           description: "they call me ace",
           tech_used: "react / nodejs",
@@ -64,7 +64,7 @@ const Projects = () => {
       name: "laravel",
       content: [
         {
-          img: "/me.jpeg",
+          img: "me.jpeg",
           title: "laravel project title",
           description: "they call me ace",
           tech_used: "laravel",

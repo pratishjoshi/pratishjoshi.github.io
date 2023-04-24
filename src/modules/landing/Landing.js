@@ -10,7 +10,7 @@ const Landing = () => {
         muted
         className="w-full absolute top-0 object-cover h-full -z-10"
       >
-        <source src="/background-video.mp4" type="video/mp4" />
+        <source src="background-video.mp4" type="video/mp4" />
       </video>
       <div className="z-10 flex text-white items-center h-[100vh] justify-center text-center">
         <div>
