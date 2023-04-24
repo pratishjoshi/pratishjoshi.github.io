@@ -77,7 +77,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects-container" className="pt-20 pb-32">
+    <section id="projects" className="pt-20 pb-32">
       <div className="container mx-auto">
         <Title header_title="Projects" />
         <ul

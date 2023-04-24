@@ -3,7 +3,7 @@ import "./landing.scss";
 
 const Landing = () => {
   return (
-    <section className="relative" id="landing-container">
+    <section className="relative" id="home">
       <video
         autoPlay
         loop

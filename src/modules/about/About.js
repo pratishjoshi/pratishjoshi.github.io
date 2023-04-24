@@ -63,7 +63,7 @@ const About = () => {
   };
 
   return (
-    <section id="about-container" className="py-20">
+    <section id="about" className="py-20">
       <div className="container mx-auto">
         <Title header_title="About" />
         <div
