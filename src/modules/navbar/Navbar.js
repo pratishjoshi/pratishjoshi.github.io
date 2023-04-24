@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="container mx-auto">
         <ul
           id="navbar-list"
-          className="list-none flex gap-12 h-14 items-center"
+          className="list-none flex gap-4 h-14 lg:gap-12 lg:justify-start justify-center items-center overflow-x-hidden text-xs md:text-lg"
         >
           {navbarList.map((data, key) => (
             <a
