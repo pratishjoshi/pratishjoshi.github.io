@@ -1,0 +1,49 @@
+#projects-container {
+  transition: 0.3s ease-out;
+
+  .bg-secondary {
+    background-color: #e31b6d;
+    transition: 0.3s ease-in;
+  }
+  .text-secondary {
+    color: #e31b6d;
+  }
+
+  li:hover {
+    cursor: pointer;
+  }
+
+  img {
+    height: inherit;
+    transition: 0.2s ease-out;
+    opacity: 1;
+  }
+
+  #image-hover-cover {
+    opacity: 0;
+    transition: 0.4s ease-out;
+    background-color: #f5f5f5;
+  }
+
+  button {
+    border: 2px solid #e31b6d;
+    transition: 0.5s ease-out;
+  }
+
+  button:hover {
+    background-color: #e31b6d;
+    color: white;
+    transition: 0.5s ease-in;
+  }
+
+  .grid-content:hover {
+    img {
+      opacity: 0;
+      transition: 0.2s ease-in;
+    }
+    #image-hover-cover {
+      opacity: 1;
+      transition: 0.4s ease-in;
+    }
+  }
+}
