@@ -18,7 +18,7 @@ const Landing = () => {
             Hello, I'm <span className="text-secondary">Pratish Joshi</span>.
           </h2>
           <h2 className="text-6xl">I'm a full-stack web developer.</h2>
-          <button className="border border-2 bg-transparent p-4 mt-5 w-60">
+          <button className="border-2 bg-transparent p-4 mt-5 w-60">
             <div className="flex justify-center items-center gap-4 font-semibold">
               View my work
               <span className="text-white" id="arrow-icon">
