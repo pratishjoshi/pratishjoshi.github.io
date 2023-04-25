@@ -1,0 +1,47 @@
+#contact {
+  form {
+    min-height: 500px;
+  }
+
+  .text-primary {
+    color: #8f9aa7;
+  }
+
+  .text-secondary {
+    color: #e31b6d;
+  }
+
+  .bg-secondary {
+    background: #262f38;
+  }
+
+  input,
+  textarea {
+    background: #1e242c;
+    color: #fff;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 16px;
+  }
+
+  input:focus,
+  textarea:focus {
+    outline: none;
+  }
+
+  button {
+    transition: 0.3s ease-out;
+  }
+
+  button:hover {
+    background-color: #04c2c9;
+    border-color: #04c2c9;
+    transition: 0.3s ease-in;
+  }
+
+  footer {
+    background: #1b242f;
+  }
+}
