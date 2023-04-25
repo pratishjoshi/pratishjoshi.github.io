@@ -1,8 +1,8 @@
 const Title = (props) => {
   return (
     <div
-      className={`pb-20 uppercase font-semibold text-4xl text-center ${
-        props.color ? "text-white" : "text-zinc-700"
+      className={`uppercase font-semibold text-4xl text-center ${
+        props.color ? "text-white pb-12" : "text-zinc-700 pb-20"
       }`}
     >
       {props.header_title}
