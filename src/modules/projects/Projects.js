@@ -87,7 +87,7 @@ const Projects = () => {
           {projectNavList.map((data, key) => (
             <li
               key={key}
-              className={`w-1/2 mx-auto p-2 text-xs lg:text-md text-white text-center ${
+              className={`w-1/2 mx-auto p-2 text-xs lg:text-lg text-white text-center ${
                 projectNavState === data.value
                   ? "bg-secondary"
                   : "text-zinc-600"
@@ -100,7 +100,7 @@ const Projects = () => {
         </ul>
         <div
           id="projects-list"
-          className={`grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-4/5 mx-auto justify-center items-center gap-4`}
+          className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-4/5 mx-auto justify-center items-center gap-4`}
         >
           {projectNavList
             .find((data) => data.value === projectNavState)
