@@ -82,12 +82,12 @@ const Projects = () => {
         <Title header_title="Projects" />
         <ul
           id="projects-nav"
-          className="list-none grid grid-cols-3 items-center justify-center w-1/2 mx-auto uppercase"
+          className="list-none grid grid-cols-3 w-full items-center lg:w-1/2 justify-center mx-auto uppercase"
         >
           {projectNavList.map((data, key) => (
             <li
               key={key}
-              className={`w-1/2 mx-auto p-2 text-lg text-white text-center ${
+              className={`w-1/2 mx-auto p-2 text-xs lg:text-md text-white text-center ${
                 projectNavState === data.value
                   ? "bg-secondary"
                   : "text-zinc-600"
@@ -100,19 +100,19 @@ const Projects = () => {
         </ul>
         <div
           id="projects-list"
-          className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-4/5 mx-auto justify-center items-center gap-10"
+          className={`grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-4/5 mx-auto justify-center items-center gap-4`}
         >
           {projectNavList
             .find((data) => data.value === projectNavState)
             .content.map((project, key) => (
               <div
-                className="grid-content relative mx-auto w-full min-h-[24vh] h-[100%] text-center mt-32 z-10"
+                className="grid-content relative mx-auto w-full h-[100%] text-center mt-32 z-10"
                 key={key}
               >
                 <img
                   src={project.img}
                   alt={`project ${key}`}
-                  className="object-cover w-full absolute aspect-square"
+                  className="object-cover w-full absolute bg-black aspect-square"
                 />
                 <div
                   className="relative w-full grid grid-cols-1 h-full"
